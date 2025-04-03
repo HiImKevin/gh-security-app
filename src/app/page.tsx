@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   const apiKey = "super_secret_api_key";
-
+  const superSecretApiKey = "25125-632sc5-f5252f-hdw2365";
   return (
         <>
       <div>{apiKey}</div>
