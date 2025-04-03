@@ -1,11 +1,12 @@
 import Image from "next/image";
 
 export default function Home() {
-  const apiKey = "super_secret_api_key";
-  const superSecretApiKey = "25125-632sc5-f5252f-hdw2365";
+  const awsAccessKeyId = "AKIAIOSFODNN7EXAMPLE";
+  const awsSecretAccessKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+  const githubToken = "ghp_1234567890abcdefghijklmnopqrstuvwxyz1234";
+  
   return (
         <>
-      <div>{apiKey}</div>
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
           <Image
